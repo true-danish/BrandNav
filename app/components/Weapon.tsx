@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Weapon = () => {
   return (
-    <section className=" mt-[6rem] pb-[8.5rem] bg-[#F8FCFF] sm:mt-[11.6rem]  ">
-      <div className="max-container px-[1.6rem] bg-[#F8FCFF] overflow-hidden">
+    <section className=" pt-[6rem] pb-[8.5rem] bg-[#F2F2FA] sm:pt-[11.6rem]  ">
+      <div className="max-container px-[1.6rem] bg-[#F2F2FA] overflow-hidden">
         {/* Text */}
         <div className="sm:text-center text-start">
           <h1 className="text-[#2F327D] text-[3.2rem] font-extrabold mb-[.6rem] ">
