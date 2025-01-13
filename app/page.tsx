@@ -6,7 +6,7 @@ import Weapon from "./components/Weapon";
 
 export default function Home() {
   return (
-    <div className=" bg-[#EBEFFA]  sm:bg-red-500   ">
+    <div className=" bg-[#EBEFFA]  sm:bg-red-5  ">
       <Header />
       <Hero />
       <Weapon />
