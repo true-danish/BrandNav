@@ -32,9 +32,9 @@ const Hero = () => {
     setInterval(runAnimation, 300);
   }, []);
   return (
-    <main className=" relative ">
+    <main className=" relative bg-gradient-to-b from-[#E6ECFA] via-[#F0F0F8] to-[#F2F2FA] ">
       {/* Hero Section */}
-      <div className="max-container  flex flex-col items-center justify-center px-[1.6rem] bg-[#EBEFFA] ">
+      <div className="max-container  flex flex-col items-center justify-center px-[1.6rem] bg-gradient-to-b from-[#E6ECFA] via-[#F0F0F8] to-[#F2F2FA] ">
         {/* Text */}
         <section className="flex flex-col items-start sm:items-center justify-center relative z-10">
           <h1 className="text-[4.2rem] sm:text-[5.6rem] max-w-[57rem] leading-[5.2rem] sm:leading-[7.2rem] mt-[4.8rem] sm:mt-[7.5rem] font-medium  sm:text-center  text-[#0D2052]">

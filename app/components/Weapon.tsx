@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Weapon = () => {
   return (
-    <section className=" mt-[6rem] pb-[8.5rem] bg-[#EBEFFA] sm:mt-[11.6rem]  ">
-      <div className="max-container px-[1.6rem] bg-[#EBEFFA] overflow-hidden">
+    <section className=" mt-[6rem] pb-[8.5rem] bg-[#F8FCFF] sm:mt-[11.6rem]  ">
+      <div className="max-container px-[1.6rem] bg-[#F8FCFF] overflow-hidden">
         {/* Text */}
         <div className="sm:text-center text-start">
           <h1 className="text-[#2F327D] text-[3.2rem] font-extrabold mb-[.6rem] ">
@@ -20,8 +20,8 @@ const Weapon = () => {
           <div className="   rounded-[2.7rem] w-full   ">
             <div className="flex flex-col gap-[1.2rem] lg:gap-0 items-center lg:flex-row  ">
               {/* Card1 */}
-              <div className="bg-white rounded-[1.8rem] overflow-hidden">
-                <div className=" flex gap-6 bg-white  justify-start items-start  border-t border-l  p-[1.7rem] rounded-t-[1.8rem] max-lg:rounded-[1.8rem]  lg:flex-col  lg:w-[23.4rem] lg:h-[29.2rem] ">
+              <div className="bg-white rounded-t-[1.8rem] overflow-hidden">
+                <div className=" flex gap-6 bg-red-30  justify-start items-start  border-t border-l   p-[1.7rem] rounded-t-[1.8rem] max-lg:rounded-t-[1.8rem]  lg:flex-col  lg:w-[23.4rem] lg:h-[29.2rem] ">
                   {/* Image */}
                   <div className="relative  w-[20rem] h-[12.5rem] grid place-items-center  border border-[#D8DDEB] rounded-[1.8rem]">
                     <Image
@@ -63,7 +63,7 @@ const Weapon = () => {
               </div>
 
               {/* 3cards */}
-              <div className="flex flex-col lg:flex-row gap-[1.2rem] bg-[#EBEFFA] rounded-tr-[1.9rem] rounded-bl-[1.8rem] pl-[1rem] pb-[.3rem] ">
+              <div className="flex flex-col lg:flex-row gap-[1.2rem] bg-[#F8FCFF] sm:bg-red-30  border-l  border-b rounded-t-[1.9rem] rounded-bl-[1.8rem] pl-[1rem] pb-[.5rem] ">
                 <div className="w-full gap-6 shadow-lg bg-white flex  justify-start items-start  border border-[#D8DDEB] p-[1.7rem] rounded-[1.8rem]  lg:flex-col  lg:w-[23.4rem] lg:h-[28.9rem] ">
                   {/* Image */}
                   <div className="relative  w-[20rem] h-[12.5rem] grid place-items-center  border border-[#D8DDEB] rounded-[1.8rem]">
@@ -132,7 +132,7 @@ const Weapon = () => {
 
             {/* Card 5 */}
 
-            <div className="lg:flex hidden  bg-white rounded-b-[2.7rem] rounded-tr-[2.7rem] justify-between pl-[2.5rem] pt-[5.8rem] pb-[1.8rem] ">
+            <div className="lg:flex hidden  bg-white border-b border-l border-r rounded-b-[2.7rem] rounded-tr-[2.7rem] justify-between pl-[2.5rem] pt-[5.8rem] pb-[1.8rem] ">
               <div>
                 <h1 className="text-[2rem] font-semibold  pb-[1.8rem]">
                   The ultimate eCom leads database
