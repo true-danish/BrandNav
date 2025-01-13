@@ -5,11 +5,11 @@ import Weapon from "./components/Weapon";
 
 export default function Home() {
   return (
-    <div className=" bg-[#EBEFFA]  h-[300vh] ">
+    <div className=" bg-[#EBEFFA]  sm:bg-red-500   ">
       <Header />
       <Hero />
       <Weapon />
-      {/* <Gift /> */}
+      <Gift />
     </div>
   );
 }
