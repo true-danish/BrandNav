@@ -29,7 +29,7 @@ const Hero = () => {
       }
       setCurrWord(temp);
     }
-    setInterval(runAnimation, 300);
+    setInterval(runAnimation, 250);
   }, []);
   return (
     <main className=" relative bg-gradient-to-b from-[#E6ECFA] via-[#F0F0F8] to-[#F2F2FA] ">
@@ -131,7 +131,7 @@ const Hero = () => {
             className="absolute top-10"
           />
         </div>
-        <div className="absolute bg-red-60  hidden sm:block left-[470px]  -top-[250px] w-[1200px] h-[765px]">
+        <div className="absolute bg-red-60  hidden sm:block left-[700px] bg -top-[100px] w-[1200px] h-[765px]">
           <Image
             src="/herobg2.svg"
             alt="background"

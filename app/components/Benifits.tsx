@@ -50,7 +50,7 @@ const Benifits = () => {
               >
                 {/* Image section */}
                 <div className="flex-1  flex items-center justify-start sm:justify-center ">
-                  <div className="relative  w-[47.3rem] h-[40.7rem]">
+                  <div className="relative  w-[40rem] sm:w-[47.3rem] h-[40.7rem]">
                     <Image src={e.url1} alt="benefit1" layout="fill" />
                   </div>
                 </div>
